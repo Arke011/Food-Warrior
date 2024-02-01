@@ -9,13 +9,13 @@ public class Fruit : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        rb.velocity = new Vector2(0, 10);
+        rb.velocity = new Vector2(0, 13);
         rb.angularVelocity = 200;
     }
 
     void Update()
     {
-        if (transform.position.y < -6)
+        if (transform.position.y < -12)
         {
             Debug.Log("ohmaygot amabatunutttttttttt");
             Destroy(gameObject);
