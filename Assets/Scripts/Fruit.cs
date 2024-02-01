@@ -17,7 +17,7 @@ public class Fruit : MonoBehaviour
     {
         if (transform.position.y < -12)
         {
-            Debug.Log("ohmaygot amabatunutttttttttt");
+            Debug.Log("ohmaygot");
             Destroy(gameObject);
         }
     }
