@@ -18,8 +18,8 @@ public class Spawner : MonoBehaviour
 
         for (int i = 0; i < count; i++)
         {
-            float randomHeight = Random.Range(-5f, -12f);
-            Vector3 randomPosition = new Vector3(Random.Range(-3f, 5f), randomHeight, 0); 
+            float Height = -6.5f;
+            Vector3 randomPosition = new Vector3(Random.Range(-3f, 5f), Height, 0); 
 
             var obj = Instantiate(fruits[Random.Range(0, fruits.Count)], randomPosition, Quaternion.identity);
         }

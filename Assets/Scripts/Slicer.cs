@@ -5,6 +5,7 @@ using UnityEngine;
 public class Slicer : MonoBehaviour
 {
     Rigidbody2D rb;
+    Fruit fruit;
 
     void Start()
     {
@@ -23,6 +24,7 @@ public class Slicer : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        Destroy(other.gameObject);
+        var fruit = other.gameObject.GetComponent<Fruit>();
+        fruit.Slice();
     }
 }
