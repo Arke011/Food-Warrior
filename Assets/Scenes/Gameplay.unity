@@ -654,14 +654,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dbee83a17cb6864e8feb1332257022d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fruit: {fileID: 5689318045944027731, guid: 6aa1371a8a1e8d34c88728f81147ac7c, type: 3}
-  fruits:
-  - {fileID: 6472049396897178776, guid: f41b8abf7096bf24f981aa9711ad1a96, type: 3}
-  - {fileID: 3733771634104736221, guid: 2e423c07d159f9b44b9a77f1ee2ecc48, type: 3}
-  - {fileID: 5689318045944027731, guid: 6aa1371a8a1e8d34c88728f81147ac7c, type: 3}
-  - {fileID: 2474869566811385498, guid: 7c031f40a1adc114fbaa8c7de53fb10d, type: 3}
-  - {fileID: 4960012745240523600, guid: f05b310677b553148b56cd033ef12dd1, type: 3}
-  - {fileID: 6516372157859644232, guid: 695df8cf00d9abd4d87e07affd7dd00d, type: 3}
+  fruitPrefab: {fileID: 4960012745240523600, guid: f05b310677b553148b56cd033ef12dd1, type: 3}
+  bombPrefab: {fileID: 6516372157859644232, guid: 695df8cf00d9abd4d87e07affd7dd00d, type: 3}
+  waves:
+  - items:
+    - isBomb: 0
+      x: 0
+      delay: 0
+      velocity: {x: 0, y: 0}
+  - items:
+    - isBomb: 0
+      x: -5
+      delay: 0
+      velocity: {x: 0, y: 0}
+    - isBomb: 0
+      x: 5
+      delay: 0
+      velocity: {x: 0, y: 0}
+  - items:
+    - isBomb: 1
+      x: -5
+      delay: 0
+      velocity: {x: 0, y: 0}
+    - isBomb: 1
+      x: 0
+      delay: 0
+      velocity: {x: 0, y: 0}
+    - isBomb: 1
+      x: 5
+      delay: 0
+      velocity: {x: 0, y: 0}
 --- !u!4 &1164362131
 Transform:
   m_ObjectHideFlags: 0
