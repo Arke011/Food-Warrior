@@ -12,7 +12,7 @@ public class Fruit : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         
         
-        rb.angularVelocity = Random.Range(100, 200);
+        rb.angularVelocity = Random.Range(100, 300);
     }
 
     void Update()

@@ -16,7 +16,7 @@ public class Spawner : MonoBehaviour
             foreach (var fruit in wave.items)
             {
                 await new WaitForSeconds(fruit.delay);
-                Debug.Log(fruit.isBomb);
+                
                 var prefab = fruit.isBomb ? bombPrefab : fruitPrefab;
                 var go = Instantiate(prefab);
                 go.transform.position = new Vector3(fruit.x, -6.5f, 0);
@@ -31,4 +31,3 @@ public class Spawner : MonoBehaviour
 
     
 }
-s
