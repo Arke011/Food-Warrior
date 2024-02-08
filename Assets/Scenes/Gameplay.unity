@@ -661,29 +661,270 @@ MonoBehaviour:
     - isBomb: 0
       x: 0
       delay: 0
-      velocity: {x: 0, y: 0}
+      velocity: {x: 1, y: 15}
   - items:
     - isBomb: 0
       x: -5
-      delay: 0
-      velocity: {x: 0, y: 0}
+      delay: 1
+      velocity: {x: 2, y: 12}
     - isBomb: 0
       x: 5
       delay: 0
-      velocity: {x: 0, y: 0}
+      velocity: {x: -2, y: 12}
   - items:
     - isBomb: 1
       x: -5
       delay: 0
-      velocity: {x: 0, y: 0}
+      velocity: {x: 1, y: 12}
+    - isBomb: 1
+      x: 0
+      delay: 1
+      velocity: {x: -1, y: 13}
+    - isBomb: 1
+      x: 5
+      delay: 0
+      velocity: {x: 1, y: 14}
+  - items:
     - isBomb: 1
       x: 0
       delay: 0
-      velocity: {x: 0, y: 0}
+      velocity: {x: 0, y: 12}
+    - isBomb: 0
+      x: 0
+      delay: 0
+      velocity: {x: 0, y: 14}
+  - items:
+    - isBomb: 1
+      x: -5
+      delay: 1
+      velocity: {x: 0, y: 12}
+    - isBomb: 0
+      x: 3
+      delay: 0
+      velocity: {x: -3, y: 14}
+    - isBomb: 0
+      x: -3
+      delay: 0
+      velocity: {x: 3, y: 14}
+    - isBomb: 1
+      x: 5
+      delay: 1
+      velocity: {x: 0, y: 12}
+  - items:
+    - isBomb: 0
+      x: -5
+      delay: 0
+      velocity: {x: 0, y: 14}
+    - isBomb: 0
+      x: -5
+      delay: 0
+      velocity: {x: 1, y: 11}
+    - isBomb: 0
+      x: 0
+      delay: 2
+      velocity: {x: 1, y: 15}
+    - isBomb: 0
+      x: 5
+      delay: 2
+      velocity: {x: 1, y: 13}
+    - isBomb: 0
+      x: -5
+      delay: 2
+      velocity: {x: 1, y: 14}
+    - isBomb: 0
+      x: 5
+      delay: 2
+      velocity: {x: 1, y: 12}
+  - items:
+    - isBomb: 1
+      x: -5
+      delay: 0
+      velocity: {x: 0, y: 12}
     - isBomb: 1
       x: 5
       delay: 0
-      velocity: {x: 0, y: 0}
+      velocity: {x: 0, y: 14}
+    - isBomb: 1
+      x: 0
+      delay: 0
+      velocity: {x: -2, y: 14}
+    - isBomb: 1
+      x: 0
+      delay: 0
+      velocity: {x: 2, y: 14}
+  - items:
+    - isBomb: 1
+      x: 3
+      delay: 0.5
+      velocity: {x: -2, y: 12}
+    - isBomb: 0
+      x: 6
+      delay: 0.5
+      velocity: {x: -3, y: 14}
+    - isBomb: 1
+      x: -1
+      delay: 0.5
+      velocity: {x: 1, y: 14}
+    - isBomb: 0
+      x: 4
+      delay: 0.5
+      velocity: {x: -1, y: 14}
+    - isBomb: 1
+      x: 2
+      delay: 0.5
+      velocity: {x: -1, y: 14}
+    - isBomb: 0
+      x: -2
+      delay: 0.5
+      velocity: {x: 2, y: 14}
+    - isBomb: 1
+      x: 5
+      delay: 2
+      velocity: {x: -3, y: 14}
+    - isBomb: 0
+      x: -5
+      delay: 2
+      velocity: {x: -2, y: 14}
+  - items:
+    - isBomb: 1
+      x: -5
+      delay: 0
+      velocity: {x: 2, y: 14}
+    - isBomb: 1
+      x: 5
+      delay: 0
+      velocity: {x: -2, y: 14}
+    - isBomb: 0
+      x: 0
+      delay: 0
+      velocity: {x: 2, y: 16}
+    - isBomb: 0
+      x: -2
+      delay: 0
+      velocity: {x: 0, y: 16}
+  - items:
+    - isBomb: 1
+      x: -5
+      delay: 1
+      velocity: {x: 2, y: 14}
+    - isBomb: 0
+      x: 5
+      delay: 1
+      velocity: {x: -2, y: 14}
+    - isBomb: 0
+      x: -3
+      delay: 1
+      velocity: {x: 2, y: 14}
+    - isBomb: 0
+      x: 3
+      delay: 1
+      velocity: {x: -2, y: 14}
+    - isBomb: 0
+      x: -5
+      delay: 1
+      velocity: {x: 2, y: 14}
+  - items:
+    - isBomb: 1
+      x: 0
+      delay: 1
+      velocity: {x: 2, y: 12}
+    - isBomb: 0
+      x: -1
+      delay: 1
+      velocity: {x: 4, y: 13}
+    - isBomb: 0
+      x: 3
+      delay: 1
+      velocity: {x: -2, y: 12}
+    - isBomb: 0
+      x: -2
+      delay: 1
+      velocity: {x: 1, y: 14}
+    - isBomb: 1
+      x: -4
+      delay: 1
+      velocity: {x: 3, y: 12}
+    - isBomb: 0
+      x: 4
+      delay: 1
+      velocity: {x: -1, y: 16}
+    - isBomb: 1
+      x: 3
+      delay: 1
+      velocity: {x: -3, y: 12}
+    - isBomb: 0
+      x: -2
+      delay: 1
+      velocity: {x: 1, y: 18}
+    - isBomb: 0
+      x: 1
+      delay: 1
+      velocity: {x: -1, y: 12}
+    - isBomb: 1
+      x: -5
+      delay: 1
+      velocity: {x: 3, y: 12}
+  - items:
+    - isBomb: 1
+      x: -5
+      delay: 0
+      velocity: {x: 0, y: 12}
+    - isBomb: 1
+      x: -4
+      delay: 0
+      velocity: {x: 0, y: 13}
+    - isBomb: 1
+      x: -3
+      delay: 0
+      velocity: {x: 0, y: 12}
+    - isBomb: 1
+      x: -2
+      delay: 0
+      velocity: {x: 0, y: 13}
+    - isBomb: 1
+      x: -1
+      delay: 0
+      velocity: {x: 0, y: 13}
+    - isBomb: 1
+      x: 0
+      delay: 0
+      velocity: {x: 0, y: 13}
+    - isBomb: 1
+      x: 1
+      delay: 0
+      velocity: {x: 0, y: 13}
+    - isBomb: 1
+      x: 2
+      delay: 0
+      velocity: {x: 0, y: 13}
+    - isBomb: 1
+      x: 3
+      delay: 0
+      velocity: {x: 0, y: 13}
+    - isBomb: 1
+      x: 4
+      delay: 0
+      velocity: {x: 0, y: 13}
+    - isBomb: 1
+      x: 5
+      delay: 0
+      velocity: {x: 0, y: 13}
+    - isBomb: 0
+      x: 6
+      delay: 1
+      velocity: {x: -4, y: 12}
+    - isBomb: 0
+      x: 2
+      delay: 1
+      velocity: {x: -1, y: 13}
+    - isBomb: 0
+      x: -2
+      delay: 1
+      velocity: {x: 2, y: 14}
+    - isBomb: 0
+      x: -5
+      delay: 1
+      velocity: {x: 2, y: 13}
 --- !u!4 &1164362131
 Transform:
   m_ObjectHideFlags: 0
