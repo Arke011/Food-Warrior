@@ -15,6 +15,7 @@ public class Spawner : MonoBehaviour
         {
             foreach (var fruit in wave.items)
             {
+                await new WaitForSeconds(fruit.delay);
                 Debug.Log(fruit.isBomb);
                 var prefab = fruit.isBomb ? bombPrefab : fruitPrefab;
                 var go = Instantiate(prefab);
@@ -22,7 +23,6 @@ public class Spawner : MonoBehaviour
 
                 var rigidbody2D = go.GetComponent<Rigidbody2D>();
                 rigidbody2D.velocity = fruit.velocity;
-                await new WaitForSeconds(fruit.delay);
 
             }
             await new WaitForSeconds(3f);
@@ -31,3 +31,4 @@ public class Spawner : MonoBehaviour
 
     
 }
+s
