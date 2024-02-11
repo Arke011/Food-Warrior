@@ -48,7 +48,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58c0f621d3dd51d4c84e9481f328134d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosionParticles: {fileID: 4839943557573695438, guid: 7debbe4f30bff1f41b82ed7941b062a2, type: 3}
+  explosionParticles: {fileID: 5751165720242550009, guid: cf66af3f5a3a716408eb76241ad678cb, type: 3}
+  juiceColor: {r: 1, g: 1, b: 1, a: 1}
+  spawnSound: {fileID: 8300000, guid: 66d60676357b075419ae6f1a7457807e, type: 3}
+  sliceSound: {fileID: 8300000, guid: 6315b246097e2dc4b98d417547c06cb4, type: 3}
+  missSound: {fileID: 8300000, guid: 874471c6eda1eed4aa259e2cfc435011, type: 3}
+  splatterSounds:
+  - {fileID: 8300000, guid: 709e7cf2016992d45a3844afd83210f0, type: 3}
+  - {fileID: 8300000, guid: d26b17f0577f40b44b9a43be05f8da0f, type: 3}
+  - {fileID: 8300000, guid: c8a3488cae099b543913be7008d9cd4f, type: 3}
 --- !u!58 &1962741553446442979
 CircleCollider2D:
   m_ObjectHideFlags: 0
